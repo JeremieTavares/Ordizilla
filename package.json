@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@glidejs/glide": "^3.5.2",
+    "@splidejs/splide": "^4.0.7"
+  }
+}
