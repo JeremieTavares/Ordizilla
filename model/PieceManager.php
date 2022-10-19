@@ -53,9 +53,10 @@ class PieceManager extends Manager
             $columnName = "pca_id";
             $path = "pca_path";
         }
-        else
+        else{
             $columnName = (substr($item, 0, 3) . "_id");
             $path = (substr($item, 0, 3) . "_path");
+        }
         try {
 
             $db = $this->dbConnect();
